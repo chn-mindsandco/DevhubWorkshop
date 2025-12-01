@@ -21,6 +21,9 @@ Code quality and testing
    Hint: Sonar token can be created here: User > My Account > Security
 
 Dependencies
+TODO: write dependecies task.
+Test the setup with creating sbom file and push it to the server
+
 Security scanning 
 1. Implement Git leaks
    You can use github's own action for this: https://github.com/marketplace/actions/gitleaks

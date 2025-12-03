@@ -56,4 +56,5 @@ jobs:
           jb inspectcode "${{ env.solutionPath }}" -o="./outputs/output.json"
           
       - name: Analyze Script
-        run: ".\.github\workflows\scripts\analyzeInspectCodeOutput.ps1"
+        run: |
+          ./.github/workflows/scripts/analyzeInspectCodeOutput.ps1 ./outputs/output.json

@@ -57,5 +57,6 @@ jobs:
       
       
       - name: Analyze Script
+        shell: pwsh
         run: |
           ./.github/workflows/scripts/analyzeInspectCodeOutput.ps1 ${{ runner.temp }}/inspectcode.json

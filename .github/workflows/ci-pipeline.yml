@@ -45,4 +45,4 @@ jobs:
         
       - run: |
           echo "FullSemVer (env.fullSemVer)            : ${{ env.fullSemVer }}"
-          name: Display GitVersion variables (without prefix)
+        name: Display GitVersion variables (without prefix)

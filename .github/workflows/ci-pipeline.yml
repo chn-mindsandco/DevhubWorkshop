@@ -53,5 +53,5 @@ jobs:
       - uses: actions/github-script@v8
         with:
           script: |
-            dotnet tool install JetBrains.ReSharper.GlobalTools --tool-path
+            dotnet tool install JetBrains.ReSharper.GlobalTools --tool-path ./
             jb inspectcode ${{ env.solutionPath }} -o="./outputs/output.json"

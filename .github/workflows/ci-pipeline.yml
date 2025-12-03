@@ -46,3 +46,6 @@ jobs:
       - run: |
           echo "FullSemVer (env.fullSemVer)            : ${{ env.fullSemVer }}"
         name: Display GitVersion variables (without prefix)
+        
+      - name: Test
+        run: dotnet test --no-build --verbosity normal

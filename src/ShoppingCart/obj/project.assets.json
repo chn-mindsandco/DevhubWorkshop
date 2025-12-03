@@ -1740,33 +1740,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\": {}
+    "C:\\Users\\ChristianVindNielsen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj",
+      "projectUniqueName": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart\\ShoppingCart.csproj",
       "projectName": "ShoppingCart",
-      "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj",
-      "packagesPath": "C:\\Users\\AndersStrøm\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\obj\\",
+      "projectPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart\\ShoppingCart.csproj",
+      "packagesPath": "C:\\Users\\ChristianVindNielsen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AndersStrøm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ChristianVindNielsen\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/scadaminds/f5f8b22d-000b-4783-a5d3-c052c53f36ba/_packaging/VirtualWindFarm/nuget/v3/index.json": {}
+        "https://nuget.pkg.github.com/mindsandco/index.json": {},
+        "https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj": {
-              "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj"
+            "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj": {
+              "projectPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart.Db\\ShoppingCart.Db.csproj"
             }
           }
         }
@@ -1819,24 +1820,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1848,5 +1831,178 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json."
+    }
+  ]
 }

@@ -120,19 +120,6 @@
           "lib/net9.0/Docker.DotNet.X509.dll": {}
         }
       },
-      "FluentAssertions/8.5.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/FluentAssertions.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/FluentAssertions.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.AspNetCore.Mvc.Testing/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -1398,37 +1385,6 @@
           }
         }
       },
-      "NUnit/4.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/nunit.framework.dll": {
-            "related": ".legacy.xml;.xml"
-          },
-          "lib/net6.0/nunit.framework.legacy.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/nunit.framework.dll": {
-            "related": ".legacy.xml;.xml"
-          },
-          "lib/net6.0/nunit.framework.legacy.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "build/NUnit.props": {}
-        }
-      },
-      "NUnit.Analyzers/4.4.0": {
-        "type": "package"
-      },
-      "NUnit3TestAdapter/4.6.0": {
-        "type": "package",
-        "build": {
-          "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
-        }
-      },
       "SharpZipLib/1.4.2": {
         "type": "package",
         "compile": {
@@ -1681,22 +1637,6 @@
         },
         "runtime": {
           "lib/net9.0/Testcontainers.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Testcontainers.MsSql/4.7.0": {
-        "type": "package",
-        "dependencies": {
-          "Testcontainers": "4.7.0"
-        },
-        "compile": {
-          "lib/net9.0/Testcontainers.MsSql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Testcontainers.MsSql.dll": {
             "related": ".xml"
           }
         }
@@ -2027,31 +1967,6 @@
         "lib/net9.0/Docker.DotNet.X509.dll",
         "lib/netstandard2.0/Docker.DotNet.X509.dll",
         "lib/netstandard2.1/Docker.DotNet.X509.dll"
-      ]
-    },
-    "FluentAssertions/8.5.0": {
-      "sha512": "VN3eH+jnwSBbEDK1/Z7Sg8Mw6O/zHLKK58OueRpG4rIzLxtlJYTUkUieGee5C4Ymhjkiim0ag2H/0Nc8PfNmaA==",
-      "type": "package",
-      "path": "fluentassertions/8.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "FluentAssertions.png",
-        "LICENSE",
-        "fluentassertions.8.5.0.nupkg.sha512",
-        "fluentassertions.nuspec",
-        "lib/net47/FluentAssertions.dll",
-        "lib/net47/FluentAssertions.pdb",
-        "lib/net47/FluentAssertions.xml",
-        "lib/net6.0/FluentAssertions.dll",
-        "lib/net6.0/FluentAssertions.pdb",
-        "lib/net6.0/FluentAssertions.xml",
-        "lib/netstandard2.0/FluentAssertions.dll",
-        "lib/netstandard2.0/FluentAssertions.pdb",
-        "lib/netstandard2.0/FluentAssertions.xml",
-        "lib/netstandard2.1/FluentAssertions.dll",
-        "lib/netstandard2.1/FluentAssertions.pdb",
-        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "Microsoft.AspNetCore.Mvc.Testing/9.0.8": {
@@ -3661,76 +3576,6 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/4.2.2": {
-      "sha512": "mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
-      "type": "package",
-      "path": "nunit/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "NOTICES.md",
-        "README.md",
-        "THIRD_PARTY_NOTICES.md",
-        "build/NUnit.props",
-        "icon.png",
-        "lib/net462/nunit.framework.dll",
-        "lib/net462/nunit.framework.legacy.dll",
-        "lib/net462/nunit.framework.legacy.xml",
-        "lib/net462/nunit.framework.xml",
-        "lib/net6.0/nunit.framework.dll",
-        "lib/net6.0/nunit.framework.legacy.dll",
-        "lib/net6.0/nunit.framework.legacy.xml",
-        "lib/net6.0/nunit.framework.xml",
-        "nunit.4.2.2.nupkg.sha512",
-        "nunit.nuspec"
-      ]
-    },
-    "NUnit.Analyzers/4.4.0": {
-      "sha512": "VVl1CuQttXRZh52HRw5SIOut3qXw4pmuiTYk02jTELVWZ9uYRY8IVl2qF9Zs7W0ElPiLDUrAglFBzNLBCPzEcw==",
-      "type": "package",
-      "path": "nunit.analyzers/4.4.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/nunit.analyzers.dll",
-        "docs/README.md",
-        "images/nunit_256.png",
-        "license.txt",
-        "nunit.analyzers.4.4.0.nupkg.sha512",
-        "nunit.analyzers.nuspec",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    },
-    "NUnit3TestAdapter/4.6.0": {
-      "sha512": "R7e1+a4vuV/YS+ItfL7f//rG+JBvVeVLX4mHzFEZo4W1qEKl8Zz27AqvQSAqo+BtIzUCo4aAJMYa56VXS4hudw==",
-      "type": "package",
-      "path": "nunit3testadapter/4.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net462/NUnit3.TestAdapter.dll",
-        "build/net462/NUnit3.TestAdapter.pdb",
-        "build/net462/NUnit3TestAdapter.props",
-        "build/net462/nunit.engine.api.dll",
-        "build/net462/nunit.engine.core.dll",
-        "build/net462/nunit.engine.dll",
-        "build/net462/testcentric.engine.metadata.dll",
-        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
-        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
-        "build/netcoreapp3.1/NUnit3TestAdapter.props",
-        "build/netcoreapp3.1/nunit.engine.api.dll",
-        "build/netcoreapp3.1/nunit.engine.core.dll",
-        "build/netcoreapp3.1/nunit.engine.dll",
-        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
-        "docs/README.md",
-        "nunit3testadapter.4.6.0.nupkg.sha512",
-        "nunit3testadapter.nuspec",
-        "nunit_256.png"
-      ]
-    },
     "SharpZipLib/1.4.2": {
       "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
       "type": "package",
@@ -4166,29 +4011,6 @@
         "testcontainers.nuspec"
       ]
     },
-    "Testcontainers.MsSql/4.7.0": {
-      "sha512": "Ab59MbqLl++Yh1kCGmcLvY6csBfDA4Vf0I3wNtewbzbQgY/kKTNwXFfyw1pDYlSCK25qV8uH495nOd2yDRvYKA==",
-      "type": "package",
-      "path": "testcontainers.mssql/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "README.md",
-        "docs/banner.png",
-        "docs/logo.png",
-        "lib/net8.0/Testcontainers.MsSql.dll",
-        "lib/net8.0/Testcontainers.MsSql.xml",
-        "lib/net9.0/Testcontainers.MsSql.dll",
-        "lib/net9.0/Testcontainers.MsSql.xml",
-        "lib/netstandard2.0/Testcontainers.MsSql.dll",
-        "lib/netstandard2.0/Testcontainers.MsSql.xml",
-        "lib/netstandard2.1/Testcontainers.MsSql.dll",
-        "lib/netstandard2.1/Testcontainers.MsSql.xml",
-        "testcontainers.mssql.4.7.0.nupkg.sha512",
-        "testcontainers.mssql.nuspec"
-      ]
-    },
     "xunit/2.9.3": {
       "sha512": "TlXQBinK35LpOPKHAqbLY4xlEen9TBafjs0V5KnA4wZsoQLQJiirCR4CbIXvOH8NzkW4YeJKP5P/Bnrodm0h9Q==",
       "type": "package",
@@ -4334,33 +4156,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AndersStrøm\\.nuget\\packages\\": {}
+    "C:\\Users\\ChristianVindNielsen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
       "projectName": "ShoppingCart.Tests",
-      "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
-      "packagesPath": "C:\\Users\\AndersStrøm\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart.Tests\\obj\\",
+      "projectPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart.Tests\\ShoppingCart.Tests.csproj",
+      "packagesPath": "C:\\Users\\ChristianVindNielsen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AndersStrøm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ChristianVindNielsen\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/scadaminds/f5f8b22d-000b-4783-a5d3-c052c53f36ba/_packaging/VirtualWindFarm/nuget/v3/index.json": {}
+        "https://nuget.pkg.github.com/mindsandco/index.json": {},
+        "https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj": {
-              "projectPath": "C:\\Dev\\Personal\\ShoppingCart\\src\\ShoppingCart\\ShoppingCart.csproj"
+            "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "C:\\Users\\ChristianVindNielsen\\Documents\\Workshops\\DevhubWorkshop\\src\\ShoppingCart\\ShoppingCart.csproj"
             }
           }
         }
@@ -4429,20 +4252,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[9.0.11, 9.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -4451,5 +4260,233 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized)."
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://scadaminds.pkgs.visualstudio.com/_packaging/SCM.Libs/nuget/v3/index.json."
+    }
+  ]
 }

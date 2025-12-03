@@ -53,8 +53,9 @@ jobs:
       - name: Run ReSharper InspectCode
         run: |
           dotnet tool install -g JetBrains.ReSharper.GlobalTools
-          jb inspectcode "${{ env.solutionPath }}" -o="./outputs/output.json"
-          
+          jb inspectcode "${{ env.solutionPath }}" --output="${{ runner.temp }}/inspectcode.json"
+      
+      
       - name: Analyze Script
         run: |
-          ./DevhubWorkshop/.github/workflows/scripts/analyzeInspectCodeOutput.ps1 ./DevhubWorkshop/outputs/output.json
+          ./.github/workflows/scripts/analyzeInspectCodeOutput.ps1 ${{ runner.temp }}/inspectcode.json

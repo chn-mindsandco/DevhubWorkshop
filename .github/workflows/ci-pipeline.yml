@@ -52,5 +52,5 @@ jobs:
             
       - name: Run ReSharper InspectCode
         run: |
-          dotnet tool install JetBrains.ReSharper.GlobalTools --tool-path ./
+          dotnet tool install -g JetBrains.ReSharper.GlobalTools
           dotnet jb inspectcode ${{ env.solutionPath }} -o="./outputs/output.json"

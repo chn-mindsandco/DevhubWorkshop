@@ -49,9 +49,8 @@ jobs:
         
       - name: Test
         run: dotnet test ${{ env.solutionPath }} --no-build --verbosity normal
-        
-      - uses: actions/github-script@v8
-        with:
-          script: |
-            dotnet tool install JetBrains.ReSharper.GlobalTools --tool-path ./
-            jb inspectcode ${{ env.solutionPath }} -o="./outputs/output.json"
+            
+      - name: Run ReSharper InspectCode
+        run: |
+          dotnet tool install JetBrains.ReSharper.GlobalTools --tool-path ./
+          jb inspectcode ${{ env.solutionPath }} -o="./outputs/output.json"
